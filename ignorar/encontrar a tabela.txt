@@ -1,0 +1,40 @@
+Passo 1: Abra o pgAdmin
+
+Procure por "pgAdmin" no menu Iniciar do seu computador e abra o programa. Ele pode abrir no seu navegador.
+
+Passo 2: Conecte-se ao Servidor
+
+Na barra lateral esquerda, você verá um ícone de elefante com o nome "Servers". Clique na setinha > para expandir.
+
+Ele vai pedir a senha mestre que você cadastrou quando instalou o PostgreSQL. Digite-a e conecte-se.
+
+Passo 3: Encontre seu Banco de Dados
+
+Uma vez conectado, expanda a opção Databases.
+
+Você verá uma lista de bancos de dados. Encontre o seu, chamado pecas_db, e expanda-o clicando na setinha >.
+
+Passo 4: Navegue até as Tabelas
+
+Dentro de pecas_db, siga este caminho, expandindo cada item:
+
+Schemas -> public -> Tables
+
+Passo 5: Visualize sua Tabela parts!
+
+Dentro de Tables, você finalmente verá a sua tabela: parts.
+
+Clique nela com o botão direito do mouse.
+
+No menu que aparecer, vá para View/Edit Data -> All Rows.
+
+O caminho visual é este:
+
+Servers
+└── PostgreSQL (+)
+    └── Databases (+)
+        └── pecas_db (+)     <-- Seu banco
+            └── Schemas (+)
+                └── public (+)
+                    └── Tables (+)
+                        └── parts  <-- SUA TABELA! (Clique com o botão direito aqui)
