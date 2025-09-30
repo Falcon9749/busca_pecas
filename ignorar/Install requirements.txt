@@ -1,7 +1,0 @@
-instalar biblioteca
-
-pip install -r requirements.txt
-
-criar biblioteca
-
-pip freeze > requirements.txt
